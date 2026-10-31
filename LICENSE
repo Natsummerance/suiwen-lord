@@ -1,0 +1,13 @@
+Suiwen distribution repository licensing
+
+The files in tools/ are Copyright (c) 2026 Suiwen contributors and are
+licensed under the MIT License (see tools/LICENSE).
+
+This repository is a distribution index, not an assertion that the complete
+Suiwen application is open source. Application binaries, when published,
+carry their own license and third-party notices in the release. No future
+license change is promised for third-party code.
+
+Third-party language packs keep their original licenses. They are downloaded
+from their original upstream releases; this repository does not relicense them.
+Model weights and training data are not included.

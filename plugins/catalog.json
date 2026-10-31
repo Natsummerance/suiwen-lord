@@ -1,0 +1,197 @@
+{
+  "schema": "suiwen-plugin-catalog-v1",
+  "plugins": [
+    {
+      "id": "mozc",
+      "name": "Mozc 日语",
+      "license": "BSD-3-Clause; see bundled third-party notices",
+      "assets": [
+        {
+          "name": "mozc-any.tar.bz2",
+          "bytes": 7746,
+          "sha256": "de9555278926ce7b22a64f8d5e5a263f3eb3e2aca660177cca9fa5e64187a8e6",
+          "url": "https://github.com/fcitx-contrib/fcitx5-plugins/releases/download/macos-latest/mozc-any.tar.bz2",
+          "asset_id": 682262402
+        },
+        {
+          "name": "mozc-arm64.tar.bz2",
+          "bytes": 15254988,
+          "sha256": "532fbfe68daf54e27fcb00fc4b4ee0101c8cbf53d524f3ecf443245729b35326",
+          "url": "https://github.com/fcitx-contrib/fcitx5-plugins/releases/download/macos-latest/mozc-arm64.tar.bz2",
+          "asset_id": 682262428
+        }
+      ],
+      "bytes": 15262734,
+      "platform": "macOS-arm64",
+      "host": "Fcitx5 macOS; paired core 5.1.23",
+      "sources": [
+        "https://github.com/fcitx-contrib/fcitx5-mozc",
+        "https://github.com/fcitx-contrib/fcitx5-plugins/tree/36138780889db72c49f9507c4d2d511384f33454"
+      ],
+      "release_id": 425749884,
+      "fingerprint": "5493e4d0174cd80da47591c4233deab01d83e846e71ce11a09b3868da18ab121",
+      "upstream_version": "1d7a24824011b6e5a6397a5e4c7ccdbf",
+      "upstream_data_version": "5f025d58195db21167b613cded80b9ca"
+    },
+    {
+      "id": "hangul",
+      "name": "Hangul 韩语",
+      "license": "GPL-2.0-or-later",
+      "assets": [
+        {
+          "name": "hangul-any.tar.bz2",
+          "bytes": 2255118,
+          "sha256": "3badf2c795735ee4ba39b6d785efd4bc0be2f40e9c73efdf3200ee3b333dd09e",
+          "url": "https://github.com/fcitx-contrib/fcitx5-plugins/releases/download/macos-latest/hangul-any.tar.bz2",
+          "asset_id": 682261685
+        },
+        {
+          "name": "hangul-arm64.tar.bz2",
+          "bytes": 46509,
+          "sha256": "e5d33132a06ce4e824286393d9ce9a998f6d99a8660c2ecf12dfa31735dedb9f",
+          "url": "https://github.com/fcitx-contrib/fcitx5-plugins/releases/download/macos-latest/hangul-arm64.tar.bz2",
+          "asset_id": 682261726
+        }
+      ],
+      "bytes": 2301627,
+      "platform": "macOS-arm64",
+      "host": "Fcitx5 macOS; paired core 5.1.23",
+      "sources": [
+        "https://github.com/fcitx/fcitx5-hangul",
+        "https://github.com/fcitx-contrib/fcitx5-plugins/tree/36138780889db72c49f9507c4d2d511384f33454"
+      ],
+      "release_id": 425749884,
+      "fingerprint": "cfbdc0b503b76a5280b39214cb86ed3b4491bdcc282c712cad6bf493bee289f8",
+      "upstream_version": "14e7f5df738cb8817e16d9931641a42e",
+      "upstream_data_version": "1a3c890d58d3c81dd270130a86b465bf"
+    },
+    {
+      "id": "m17n",
+      "name": "m17n 多语言",
+      "license": "LGPL-2.1-or-later; database per-file licenses",
+      "assets": [
+        {
+          "name": "m17n-any.tar.bz2",
+          "bytes": 2506698,
+          "sha256": "ffc6055c8b866c5606830a5f1852a95e6dc8659dcddc4aa8afd36467fc2faf47",
+          "url": "https://github.com/fcitx-contrib/fcitx5-plugins/releases/download/macos-latest/m17n-any.tar.bz2",
+          "asset_id": 682262332
+        },
+        {
+          "name": "m17n-arm64.tar.bz2",
+          "bytes": 186809,
+          "sha256": "87c38486394501a1c65e9fda32f1c7a4ba69f630392078137d7dec8de602953e",
+          "url": "https://github.com/fcitx-contrib/fcitx5-plugins/releases/download/macos-latest/m17n-arm64.tar.bz2",
+          "asset_id": 682262372
+        }
+      ],
+      "bytes": 2693507,
+      "platform": "macOS-arm64",
+      "host": "Fcitx5 macOS; paired core 5.1.23",
+      "sources": [
+        "https://github.com/fcitx/fcitx5-m17n",
+        "https://github.com/fcitx-contrib/fcitx5-plugins/tree/36138780889db72c49f9507c4d2d511384f33454"
+      ],
+      "release_id": 425749884,
+      "fingerprint": "73146636e582ae54c91123495fb67fc9d049d37f425b600e3673294f75c81817",
+      "upstream_version": "bd778f3146d4079874b8bdc23757f36c",
+      "upstream_data_version": "051e2f4de86b760a2d13d2a71d08025d"
+    },
+    {
+      "id": "unikey",
+      "name": "UniKey 越南语",
+      "license": "GPL-2.0-or-later",
+      "assets": [
+        {
+          "name": "unikey-any.tar.bz2",
+          "bytes": 21455,
+          "sha256": "eb4633272218aa4032e3d093353d99c1f64812ed4b9eb41c87363cc248c5868b",
+          "url": "https://github.com/fcitx-contrib/fcitx5-plugins/releases/download/macos-latest/unikey-any.tar.bz2",
+          "asset_id": 682263370
+        },
+        {
+          "name": "unikey-arm64.tar.bz2",
+          "bytes": 73079,
+          "sha256": "16e2951ccd9a9b6dee78f63da45c0f2d99faf57a9158860c216f6574834b2a8f",
+          "url": "https://github.com/fcitx-contrib/fcitx5-plugins/releases/download/macos-latest/unikey-arm64.tar.bz2",
+          "asset_id": 682263413
+        }
+      ],
+      "bytes": 94534,
+      "platform": "macOS-arm64",
+      "host": "Fcitx5 macOS; paired core 5.1.23",
+      "sources": [
+        "https://github.com/fcitx/fcitx5-unikey",
+        "https://github.com/fcitx-contrib/fcitx5-plugins/tree/36138780889db72c49f9507c4d2d511384f33454"
+      ],
+      "release_id": 425749884,
+      "fingerprint": "6b9dd4b6f592e89ef865c9fd16406cd84990e1ec9dbc56901292ebd5b2a7c203",
+      "upstream_version": "c90790b2b1729b59a4c4e08e821994e2",
+      "upstream_data_version": "d0ef489404a8ecd3381a5703b393d519"
+    },
+    {
+      "id": "jyutping",
+      "name": "粤拼",
+      "license": "LGPL-2.1-or-later",
+      "assets": [
+        {
+          "name": "jyutping-any.tar.bz2",
+          "bytes": 16151373,
+          "sha256": "af9ca8a242f5b689b9ae9d46c9e77b977e40701557c0f5914e36e2ec76207cd7",
+          "url": "https://github.com/fcitx-contrib/fcitx5-plugins/releases/download/macos-latest/jyutping-any.tar.bz2",
+          "asset_id": 682261784
+        },
+        {
+          "name": "jyutping-arm64.tar.bz2",
+          "bytes": 1036484,
+          "sha256": "5b32f9cb3dfc956afa4abb0393c188068e683d289c30c403370d0cb2fc83dce8",
+          "url": "https://github.com/fcitx-contrib/fcitx5-plugins/releases/download/macos-latest/jyutping-arm64.tar.bz2",
+          "asset_id": 682261863
+        }
+      ],
+      "bytes": 17187857,
+      "platform": "macOS-arm64",
+      "host": "Fcitx5 macOS; paired core 5.1.23",
+      "sources": [
+        "https://github.com/fcitx/libime-jyutping",
+        "https://github.com/fcitx-contrib/fcitx5-plugins/tree/36138780889db72c49f9507c4d2d511384f33454"
+      ],
+      "release_id": 425749884,
+      "fingerprint": "2e8599dc8fbd924c648cbdd8c15f1d15503a4c9b0190006038d1641f8d64be18",
+      "upstream_version": "0b5d27c67b5ffc54d0cf78d147ea58cc",
+      "upstream_data_version": "c0ef1316a7e40eb89c2b4f25e7f7139c"
+    },
+    {
+      "id": "chewing",
+      "name": "新酷音注音",
+      "license": "LGPL-2.1-or-later",
+      "assets": [
+        {
+          "name": "chewing-any.tar.bz2",
+          "bytes": 1893001,
+          "sha256": "f51e940719f59687c8858e5979bcdf07bb9e45ff64eced494c6d80a15decc62e",
+          "url": "https://github.com/fcitx-contrib/fcitx5-plugins/releases/download/macos-latest/chewing-any.tar.bz2",
+          "asset_id": 682260994
+        },
+        {
+          "name": "chewing-arm64.tar.bz2",
+          "bytes": 400599,
+          "sha256": "a1236f62643d7ccb42032990dd0f72a4a620802912278c0f8cbc8e47526ff211",
+          "url": "https://github.com/fcitx-contrib/fcitx5-plugins/releases/download/macos-latest/chewing-arm64.tar.bz2",
+          "asset_id": 682261037
+        }
+      ],
+      "bytes": 2293600,
+      "platform": "macOS-arm64",
+      "host": "Fcitx5 macOS; paired core 5.1.23",
+      "sources": [
+        "https://github.com/fcitx/fcitx5-chewing",
+        "https://github.com/fcitx-contrib/fcitx5-plugins/tree/36138780889db72c49f9507c4d2d511384f33454"
+      ],
+      "release_id": 425749884,
+      "fingerprint": "e54cb18ffb80f08d8987949b09db809ec839e19706e9d24d7c5c1c3f3959c7c2",
+      "upstream_version": "2a35ff8fd8c7ac55fe2bd6d5e6bcd145",
+      "upstream_data_version": "059acfad76516e804643d9bf636bcd11"
+    }
+  ]
+}

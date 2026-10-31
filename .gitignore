@@ -1,0 +1,8 @@
+*.zip
+*.tar.*
+*.dmg
+*.pkg
+*.app/
+__pycache__/
+.DS_Store
+.env*
