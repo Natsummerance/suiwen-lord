@@ -4,7 +4,7 @@
     {
       "id": "mozc",
       "name": "Mozc 日语",
-      "license": "BSD-3-Clause; see bundled third-party notices",
+      "license": "LGPL-2.0-or-later (Fcitx adapter); BSD-3-Clause (Mozc); bundled notices apply",
       "assets": [
         {
           "name": "mozc-any.tar.bz2",
